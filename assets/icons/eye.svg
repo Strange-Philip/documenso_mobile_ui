@@ -1,0 +1,11 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="variant=eye, size=16px" clip-path="url(#clip0_24_8758)">
+<path id="Vector" d="M1.33331 7.99992C1.33331 7.99992 3.33331 3.33325 7.99998 3.33325C12.6666 3.33325 14.6666 7.99992 14.6666 7.99992C14.6666 7.99992 12.6666 12.6666 7.99998 12.6666C3.33331 12.6666 1.33331 7.99992 1.33331 7.99992Z" stroke="#171717" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z" stroke="#171717" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_24_8758">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
