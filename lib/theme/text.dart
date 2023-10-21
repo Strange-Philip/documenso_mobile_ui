@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 
 class DocumensoText {
   DocumensoText(this.typography);
-
   DocumensoTypography typography;
-
 
   /// bold text
   Text extraLarge(String text, {Color? textColor, TextAlign? textAlign}) =>
@@ -35,3 +33,5 @@ class DocumensoText {
   Text caption(String text, {Color? textColor, TextAlign? textAlign}) =>
       Text(text, textAlign: textAlign, style: typography.caption);
 }
+
+
