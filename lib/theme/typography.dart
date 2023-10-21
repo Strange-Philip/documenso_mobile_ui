@@ -24,7 +24,7 @@ class DocumensoTypography {
         fontWeight: FontWeight.w600,
         fontSize: 32,
         overflow: TextOverflow.ellipsis,
-        height: _heightCalc(48, 34),
+        height: _heightCalc(48, 32),
       );
 
   /// Title 2
