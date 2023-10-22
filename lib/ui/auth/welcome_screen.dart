@@ -1,6 +1,7 @@
 import 'package:documenso/theme/typography.dart';
 import 'package:documenso/ui/components/primary_button.dart';
 import 'package:documenso/ui/components/secondary_button.dart';
+import 'package:documenso/ui/home/homepage.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -32,11 +33,23 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             const SizedBox(
               height: 32,
             ),
-            const PrimaryButton(title: "Sign up", isEnabled: true),
+            PrimaryButton(
+              title: "Sign up",
+              isEnabled: true,
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage()));
+              },
+            ),
             const SizedBox(
               height: 16,
             ),
-            const SecondaryButton(title: "Log in", isEnabled: true),
+            SecondaryButton(
+              title: "Log in",
+              isEnabled: true,
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage()));
+              },
+            ),
           ],
         ),
       ),

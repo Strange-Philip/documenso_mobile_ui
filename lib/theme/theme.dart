@@ -10,7 +10,7 @@ class DocumensoTheme {
   ThemeData get light {
     return ThemeData(
       brightness: Brightness.light,
-      colorScheme:  ColorScheme.light(
+      colorScheme: ColorScheme.light(
         primary: DocumensoColors.primary,
         background: DocumensoColors.white,
         surface: DocumensoColors.black,
@@ -19,7 +19,7 @@ class DocumensoTheme {
       appBarTheme: const AppBarTheme(
         systemOverlayStyle: SystemUiOverlayStyle.dark,
       ),
-      scaffoldBackgroundColor: Colors.white,
+      scaffoldBackgroundColor: DocumensoColors.white,
       elevatedButtonTheme: _elevatedButtonTheme,
       outlinedButtonTheme: _outlinedButtonTheme,
       bottomNavigationBarTheme: _bottomNavigationBarThemeData,
@@ -46,7 +46,7 @@ class DocumensoTheme {
   ThemeData get dark {
     return ThemeData(
       brightness: Brightness.dark,
-      colorScheme:  ColorScheme.dark(
+      colorScheme: ColorScheme.dark(
         primary: DocumensoColors.primary,
         background: DocumensoColors.black,
         surface: DocumensoColors.white,
@@ -148,7 +148,7 @@ class DocumensoTheme {
   }
 
   static TooltipThemeData get _tooltipTheme {
-    return  TooltipThemeData(
+    return TooltipThemeData(
       decoration: BoxDecoration(
         color: DocumensoColors.primary,
         borderRadius: const BorderRadius.all(Radius.circular(5)),
@@ -176,7 +176,7 @@ class DocumensoTheme {
   }
 
   static TabBarTheme get _tabBarTheme {
-    return  TabBarTheme(
+    return TabBarTheme(
       indicator: UnderlineTabIndicator(
         borderSide: BorderSide(
           width: 2.0,
