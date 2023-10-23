@@ -69,7 +69,7 @@ class DocumensoTypography {
 
   /// Body 2 Semi Bold
   TextStyle get body2SemiBold => baseTextStyle.copyWith(
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w500,
         fontSize: 14,
         overflow: TextOverflow.ellipsis,
         height: _heightCalc(32, 14),
